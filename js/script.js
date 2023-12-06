@@ -12,3 +12,9 @@ function hitungLuas() {
     var luas = 0.5 * alas * tinggi;
     document.getElementById("hasil").value = luas + " cm";
 }
+
+function resetForm() {
+    document.getElementById("alas").value = "";
+    document.getElementById("tinggi").value = "";
+    document.getElementById("hasil").value = "";
+}
